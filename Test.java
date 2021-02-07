@@ -4,6 +4,7 @@ public class Test {
       while(test >= 1){
         System.out.println(test);
         test--;
+
       }
     }
 }
