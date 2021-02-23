@@ -4,7 +4,8 @@ public class Test {
       int test = 100;
       int count = 0;
       while(test >= 1){
-        System.out.println("Count: " + test);
+        System.out.println("test: " + test);
+        test--;
         test--;
         count++;
       }
