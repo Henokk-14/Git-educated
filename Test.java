@@ -2,12 +2,13 @@ public class Test {
    // counts up form 1
     public static void main(String[] args) {
       // variable to start counting from
-      int test = 1;
+      int test = 0;
       // variable for num of times counted
       int count = 0;
       // loop to count up to 100
-      while(test <= 100){
+      while(test <= 500){
         System.out.println("test: " + test);
+        test++;
         test++;
         count++;
       }
